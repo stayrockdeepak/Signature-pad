@@ -1,0 +1,66 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: antiquewhite;
+  margin: 0;
+  padding: 0;
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.centered-content {
+  max-width: 600px;
+  margin: auto;
+}
+
+.txt{
+  border: 1px solid #ac3433;
+    border-radius: 6px;
+    padding: 24px;
+}
+
+.signature-instructions {
+  margin-bottom: 20px;
+}
+
+canvas {
+  border: 1px solid #ac3433;
+  border-radius: 6px;
+  margin-top: 15px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 12px 22px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #af4c4c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #af644cf5;
+}
+
+/* Display Signature Page Styles */
+
+.signature-container {
+  text-align: center;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+#signatureImage {
+  max-width: 100%;
+  border: 1px solid #af4c4c;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
